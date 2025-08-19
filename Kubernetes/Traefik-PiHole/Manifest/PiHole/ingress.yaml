@@ -10,12 +10,12 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`www.pihole3.jimsgarage.co.uk`) # change to your domain
+    - match: Host(`www.spanreed.twintreestudios.com`) # change to your domain
       kind: Rule
       services:
         - name: pihole
           port: 80
-    - match: Host(`pihole3.jimsgarage.co.uk`) # change to your domain
+    - match: Host(`spanreed.twintreestudios.com`) # change to your domain
       kind: Rule
       services:
         - name: pihole
@@ -23,4 +23,4 @@ spec:
       middlewares:
         - name: default-headers
   tls:
-    secretName: jimsgarage-tls # change to your cert name
+    secretName: twintree-tls # change to your cert name

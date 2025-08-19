@@ -25,7 +25,7 @@ if [ ! -d "`eval echo ${DESTINATION//>}`" ]; then
     mkdir jimsgarage
     mkdir Helm
     mkdir Manifest
-    curl -L -o master.zip https://github.com/JamesTurland/JimsGarage/archive/refs/heads/main.zip
+    curl -L -o master.zip https://github.com/LoSTOPerativE/JimsGarage/archive/refs/heads/main.zip
     unzip master.zip -d ~/jimsgarage
     cp -r ~/jimsgarage/JimsGarage-main/Kubernetes/Traefik-PiHole/* ~/
     rm master.zip

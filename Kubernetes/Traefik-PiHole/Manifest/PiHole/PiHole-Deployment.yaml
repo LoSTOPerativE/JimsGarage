@@ -34,7 +34,7 @@ spec:
         - name: TZ
           value: "America/New_York"
         - name: WEBPASSWORD
-          value: MIzbubblz7# # change this!
+          value: MIzbubblz7 # change this!
         - name: FTLCONF_REPLY_ADDR4
           value: pihole
         - name: PIHOLE_DNS_
